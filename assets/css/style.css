@@ -1,0 +1,20 @@
+html{
+	width: 100%;
+	
+}
+.join-element{
+	border: 1px solid black;
+}
+.navbar{
+	width:inherit;
+}
+div.container{
+	width: inherit;
+	height: 528px;
+	position : relative;
+	background-color: red;
+	
+	background: url('./images/Cloths-bc740630f228713e4bb0de8a7bffce22.png');
+}
+  
+ 
