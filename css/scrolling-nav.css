@@ -32,14 +32,64 @@ section {
 .h1-billboard{
   color: black;
 }
-@media (min-width: 576px) {
+@media (min-width: 1054px) {
   .main-billboard{
     padding: 20% 0;
   }
+  .promotion{
+    padding-top: 5%;
+  }
 }
-@media (max-width: 576px) {
+@media (max-width: 1054px) {
   .main-billboard{
     background: url("../assets/images/Cloths-bc740630f228713e4bb0de8a7bffce22.png") no-repeat 6.66666667%;
     padding: 50% 0 ;
   }
+  
+  .promotion{
+    padding-top: 5%;
+  }
 }
+
+    /* Set height of the grid so .sidenav can be 100% (adjust if needed) */
+    .row.content {height: auto}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 989px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height: auto;} 
+    }
+    .delivery{
+      background: url("../assets/images/checked-truck.png") #eca32d no-repeat 90%;
+      background-size: 20%; 
+    }
+    .coupon-saving{
+      background: url("../assets/images/icons8-coupon-100.png") #d59eeb no-repeat 90%;
+      background-size: 25%; 
+    }
+    .gift{
+      background: url("../assets/images/gift--v1.png") #aa44e6 no-repeat 90%;
+      background-size: 20%; 
+    }
+    .search-bar{
+      width: 70%;
+    }
+    .item{
+      width: 100%;
+    }

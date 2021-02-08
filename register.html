@@ -12,18 +12,19 @@
 <body>
 	<form  action="/register" method="POST" class="form-signin">
 		
-		<h1 class="h3 mb-3 font-weight-normal"><br> Awesome <span class="shop">Shop</span> </h1>
+		<h1 class="h2	mb-3 font-weight-normal"><br> Awesome <span class="shop">Shop</span> </h1>
 		<h5 >Register Here</h5>
 		<label for="inputEmail" class="sr-only">Email address</label>
 		<input name="email" type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
 		<label for="inputPassword" class="sr-only">Password</label>
 		<input name="password" type="password" id="inputPassword" class="form-control" placeholder="Password" required>
 		<div class="checkbox mb-3">
-		  <label>
-			<input type="checkbox" value="remember-me"> Remember me
-		  </label>
-		</div>
-		<p>Don't have an account? <a href="">Free Register</a></p>
+		<div class="form-check">
+			<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+			<label class="form-check-label" for="defaultCheck1">
+			  I agree with <a href="">All Terms and Conditions</a>
+		</label>
+		
 		<button class="btn btn-lg btn-primary btn-block" type="submit">Sign up</button>
 		
 	  </form>
