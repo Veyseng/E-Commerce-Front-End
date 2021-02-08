@@ -1,0 +1,45 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (https://startbootstrap.com/template/scrolling-nav)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-scrolling-nav/blob/master/LICENSE)
+ */
+ @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+ html,
+ body {
+   height: 100%;
+   font-family: 'Poppins', sans-serif;
+ }
+ 
+ body {
+   background-color: #f5f5f5;
+ }
+header {
+  padding: 156px 0 100px;
+}
+
+section {
+  padding: 150px 0;
+}
+.main-billboard{
+  background: url("../assets/images/Cloths-bc740630f228713e4bb0de8a7bffce22.png") no-repeat 50% 70%;
+  height: auto;
+  vertical-align: middle;
+
+}
+.shop{
+  color: #00B140;
+}
+.h1-billboard{
+  color: black;
+}
+@media (min-width: 576px) {
+  .main-billboard{
+    padding: 20% 0;
+  }
+}
+@media (max-width: 576px) {
+  .main-billboard{
+    background: url("../assets/images/Cloths-bc740630f228713e4bb0de8a7bffce22.png") no-repeat 6.66666667%;
+    padding: 50% 0 ;
+  }
+}
