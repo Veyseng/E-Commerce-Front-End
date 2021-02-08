@@ -45,7 +45,6 @@ section {
     background: url("../assets/images/Cloths-bc740630f228713e4bb0de8a7bffce22.png") no-repeat 6.66666667%;
     padding: 50% 0 ;
   }
-  
   .promotion{
     padding-top: 5%;
   }
@@ -68,7 +67,7 @@ section {
     }
     
     /* On small screens, set height to 'auto' for sidenav and grid */
-    @media screen and (max-width: 989px) {
+    @media screen and (max-width: 1054px) {
       .sidenav {
         height: auto;
         padding: 15px;
@@ -93,3 +92,21 @@ section {
     .item{
       width: 100%;
     }
+    .promotion-badge{
+      text-align: right ;
+    }
+    .has-search .form-control {
+      padding-left: 2.375rem;
+  }
+  
+  .has-search .form-control-feedback {
+      position: absolute;
+      z-index: 2;
+      display: block;
+      width: 2.375rem;
+      height: 2.375rem;
+      line-height: 2.375rem;
+      text-align: center;
+      pointer-events: none;
+      color: #aaa;
+  }
